@@ -1,6 +1,6 @@
 # 6133final_tutkuyaras
 ### Create a 100x100 numpy array (100x100 matrix), composed of random numbers. The random numbers should be integers and vary between [0, 100]
-To create this numpy array some packages and tools are necessary. Before begining these steps should be followed;
+To create this numpy array some packages and tools are necessary. Before begining, these steps should be followed;
 1. Downloading jupyter notebook by using [Anaconda](https://www.anaconda.com/products/individual)
 2. Launch `jupyter notebook` 
 3. `numpy`package should be installed by using this command on jupyter 
