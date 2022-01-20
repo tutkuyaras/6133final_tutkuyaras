@@ -126,6 +126,7 @@ array([[84, 40, 92, ..., 39, 53, 71],
 ````
 
 1. Firstly, default heat map was constructed by using seaborn. This time we will only have 2 colors, because we only have values of 0 and 1.
+
 ```bash
 p2 = sns.heatmap(filter_arr)
 ````
