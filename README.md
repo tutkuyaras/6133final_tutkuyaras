@@ -46,3 +46,47 @@ import seaborn as sns
 ```bash
 p1 = sns.heatmap(array1)
 ````
+![p1](https://user-images.githubusercontent.com/82367415/150316549-17fe1249-7e9c-465e-aaa0-1e81940277eb.png)
+
+3. You can change min and max values of constructed heat map. 
+```bash
+p1_1= sns.heatmap(array1, vmin=0, vmax=100)
+p1_1
+````
+![p1_1](https://user-images.githubusercontent.com/82367415/150316528-eae5c9e6-9d29-4635-bee6-f0d813b7ef6f.png)
+
+4. You can change the color of your heat map by using cmap variable, and also linewidth and linecolor could be determined.
+```bash
+p1_2 = sns.heatmap(array1, cmap="YlGnBu", linewidth = 0.5, linecolor = 'white')
+p1_2
+````
+![p1_2](https://user-images.githubusercontent.com/82367415/150316540-807b43cb-8d0d-469f-a58d-e18552dbb58c.png)
+
+5. You can determine range of your scale by using xticklabels. 
+```bash
+p1_3 = sns.heatmap(array1, xticklabels = 5, linewidth = 1, linecolor = 'white')
+p1_3
+````
+![p1_3](https://user-images.githubusercontent.com/82367415/150316541-f6aff3c0-f0bc-43f7-8d5b-3cc5bb4989ea.png)
+
+6. This is another example for xticklabels.
+```bash
+p1_4 = sns.heatmap(array1, xticklabels = 10, linewidth = 1, linecolor = 'white')
+p1_4
+````
+![p1_4](https://user-images.githubusercontent.com/82367415/150316544-c91453a5-7b2f-4263-a1af-de96f7ca7e53.png)
+
+7. You can remove x or y labels by defining false.
+```bash
+p1_5 = sns.heatmap(array1, xticklabels = 5, yticklabels = False, linewidth = 1, linecolor = 'white')
+p1_5
+````
+![p1_5](https://user-images.githubusercontent.com/82367415/150316545-2f1edfd8-68ed-4f70-a01a-96336d4faa70.png)
+
+8.This is another example for determinig max and min values of heat map.
+```bash
+p1_6 = sns.heatmap(array1, vmin=0, vmax=50)
+p1_6
+````
+![p1_6](https://user-images.githubusercontent.com/82367415/150316547-ca8f9b08-331c-4179-8431-283ac3c44b85.png)
+
