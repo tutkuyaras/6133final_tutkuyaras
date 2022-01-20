@@ -93,7 +93,7 @@ p1_6
 ### Filter out the odd numbers. Then, if present, convert True/False statements into [0,1] values. Preserve the 100x100 array shape
 To filter out odd and even numbers in our array we can use different codes. [lambda](https://realpython.com/python-lambda/) is one of the example.
 >Here I created a loop according to whether the numbers are divisible by 2 or not. [numpy.zeroes](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html) was used to give shape and type to new array. 
->>I assigned the values divisible by 2 to the value 1, and the non-divisible ones to the value 0. If you want you can assigned TRUE or FALSE boolean values instead of 1 or 2. However here we construct a heat map so i directly convert them into 0 and 1 values.
+>>I assigned the values divisible by 2 to the value 0, and the non-divisible ones to the value 1. If you want you can assigned TRUE or FALSE boolean values instead of 1 or 2. However here we construct a heat map so i directly convert them into 0 and 1 values.
 >>> Lastly, we have 100*100 array so we have to create 2 nested loops. Otherwise, we miss out on some values.
 ```bash
 filter_arr = np.zeros((100, 100), dtype= int)
